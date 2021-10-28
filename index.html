@@ -1,55 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap-5.1.1-dist/css/bootstrap.min.css">
-    
-    <title>GIPHY</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap-5.1.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <title>GIPHY</title>
 </head>
+
 <body style="background-color: darksalmon;">
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">GIPHY</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-              </li>
-            
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="palabra">
-              <button class="btn btn-outline-success" id="buscador"  type="button" onclick="buscarGift()" style="background-color:chartreuse;"><strong>Buscar</strong></button>
-            </form>
-          </div>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">GIPHY</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="palabra">
+            <button class="btn btn-outline-success" id="buscador" type="button" onclick="buscarGift()"
+              style="background-color:chartreuse;"><strong>Buscar</strong></button>
+          </form>
         </div>
-      </nav>
-    </header>
-    <main>
+      </div>
+    </nav>
+  </header>
 
-      <!---<form class="d-flex mx-auto">
-        <input class="form-control me-2" type="search" id="palabra" placeholder="palabra Clave" aria-level="Search">
-        <button class="btn btn-utline-danger" id="buscador" type="button" onclick="buscarGift()" style="background-color:chartreuse;"><strong>Buscar</strong></button>
-      </form>--->
+  <main class="container borde">
+    <section class="row">
+      <div class="col-md-6">
+        <div id="listGft" class="float-start" style="display: inline-block;"></div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="container borde">
+    <div class="row">
     
 
-   <div>
-      <div id="listGft" class="float-start" style="display: inline-block;"></div>
+    <div id="yo" class="col-md">
+        <ul>
+            <li>María Luján Caimmi</li>
+            <li>marialujancaimmi96@gmail.com</li> <br>
+            <li>Diseño web</li>
+            <li>La Plata - Argentina</li><br>
+            <li>A part of Hearst Digital Media</li>
+            <li>&#174; 2021 Caimmi María Luján. All Rights Reserved</li>
+        </ul>
     </div>
-    
-    
-       
-    </main>
-    <script src="jquery-3.6.0.min.js"></script>
-    <script src="app.js"></script>
+    <ul id="redes" class="col-md">
+      <li>
+          <a href="https://www.facebook.com">facebook</a>
+      </li>
+      <li>
+          <a href="#">Pinterest</a>
+      </li>
+      <li>
+          <a href="#">linkeding</a>
+      </li>
+      <li>
+          <a href="https://twitter.com">Twitter</a>
+      </li>
+  </ul>
+  </div>
+</footer>
+  <script src="jquery-3.6.0.min.js"></script>
+  <script src="app.js"></script>
 </body>
+
 </html>

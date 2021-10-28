@@ -10,9 +10,9 @@ const buscarGift = () => {
         for (let index = 0; index < respuesta.data.length; index++) {
             var itemGitft = respuesta.data[index];
             console.log(itemGitft);
-            gft.append(`<div class="card" style="width: 18rem;">
+            gft.append(`<div > 
            <img src="${itemGitft['images']['original']['url']}" class="card-img-top" alt="${itemGitft.title}">
-           <div class="card-body">
+           
              <h5 class="card-title">${itemGitft.title}</h5>
            </div>`);
 
