@@ -1,0 +1,79 @@
+
+
+
+footer li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    line-height: 1.5em;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: rgba(165, 151, 151, 0.2);
+    margin-top: 27%;
+
+
+
+}
+
+
+#redes ul li {
+    list-style: none;
+    font-family: 'roboto slab';
+    font-size: 16px;
+    margin-left: 10px;
+
+}
+#redes li a {
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-image: url(fotos/sprite.png);
+    height: 46px;
+    width: 46px;
+    font-size: 0;
+    display: inline-block;
+}
+
+
+#redes li:nth-child(1) a {
+    background-position: -8px top;
+}
+
+#redes li:nth-child(2) a {
+    background-position: -327px top;
+}
+
+#redes li:nth-child(3) a {
+    background-position: -262px top;
+}
+
+#redes li:nth-child(4) a {
+    background-position: -517px top;
+}
+
+#redes li:nth-child(4) a:hover {
+    background-position: -517px;
+}
+
+#redes li:nth-child(1) a:hover {
+    background-position: -8px;
+}
+
+#redes li:nth-child(2) a:hover {
+    background-position: -327px;
+}
+
+#redes li:nth-child(3) a:hover {
+    background-position: -262px;
+}
+#redes {
+    
+    display: inline-block;
+    flex-wrap: wrap;
+}
+#yo {
+    flex: 0;
+    flex-wrap: wrap;
+}
